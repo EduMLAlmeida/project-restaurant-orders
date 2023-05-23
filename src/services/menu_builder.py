@@ -37,7 +37,4 @@ class MenuBuilder:
             }
             if restriction not in dish_info['restrictions']:
                 main_menu.append(dish_info)
-        # print('\n', 'dishes_data ---> ', dishes_data, '\n')
-        # print('\n', 'main_menu ---> ', main_menu, '\n')
-        # print('\n', 'restriction ---> ', restriction, '\n')
         return pd.DataFrame(main_menu)
